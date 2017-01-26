@@ -1,2 +1,2 @@
 all:
-  g++ main.cpp Employee.cpp
+	g++ main.cpp Employee.cpp

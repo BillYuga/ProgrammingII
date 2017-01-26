@@ -13,7 +13,11 @@ private:
 	Employee* ptr;
 public:
 	Employee();
-	Employee(string, string, int,  double);
+	void setEmployee(string, string, int,  double);
+	string getlname() const;
+	string getfname() const;
+	int getsyears() const;
+	double getsalary() const;
 	~Employee();
 };
 #endif
